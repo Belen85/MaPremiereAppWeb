@@ -1,0 +1,25 @@
+﻿body {
+    background-color: hotpink;
+    color: black;
+}
+
+.jumbotron {
+    background-color: deeppink;
+}
+
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 20px;
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+
+    img:hover {
+        filter: none;
+    }
